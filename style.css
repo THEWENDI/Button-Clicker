@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    align-content: top;
+    background-color: lightgray;
+    color:black;
+}
+.top button{
+    background-color: blue;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    width: 90px;
+    height: 30px;
+    box-shadow: 3px 4px black;
+}
+input[type=text]{
+    border: 2px solid black;
+    width: 20em;
+    height: 2em;
+    padding: 2px;
+}
+.main{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+.word{
+    flex: 3;
+}
+.ninjia-word{
+    display: flex;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.ninjia-word h1,
+.ninjia-word p,
+.ninjia-word button{
+    margin-bottom: 5px;
+}
+.cursive{
+    font-style: italic;
+}
+.centerword{
+    text-align: center;
+    margin-left: -90px;
+    margin-bottom: 5px;
+}
+.ninjia{
+    flex: 1;
+}
+.practitioner{
+    flex: 3;
+}
+.defined{
+    flex: 1;
+}
+.defined-word{
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 20px;
+}
+.defined-word p{
+    font-size: 22px;
+    margin: 10px;
+}
+.you{
+    font-weight: bold;
+}
+.yellowbutton{
+    background-color:yellow;
+    border: 2px solid black;
+    color: black;
+    font-size: 15px;
+    width: 70px;
+    box-shadow: 3px 4px black;
+}
+.greenbutton{
+    background-color:green;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+    box-shadow: 3px 4px black;
+    margin-bottom: 10px;
+}

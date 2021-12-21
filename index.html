@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div class="top">
+        <h1>Dojonary</h1>
+        <form>
+            <input type="text" name="search" placeholder="Search">
+        </form>
+        <button onclick="login(this)">Login</button>
+    </div>
+    <div class="main">
+        <div class="word col-3">
+            <div class="ninjia-word">
+                <div class="ninjia col-1">
+                    <div class="centerword">
+                        <h1>ninjia</h1>
+                        <p class="cursive">noun</p>
+                        <p>Plural:<span class="cursive">ninjia</span></p>
+                    </div>
+                    <button onclick="alert('Ninja was liked')" class="yellowbutton">13 likes</button>
+                </div>
+                <div class="practitioner col-3">
+                    <p>A practitioner skilled in the <br><a href="">Japanese</a>art of <a href="">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="ninjia-word">
+                <div class="ninjia col-1">
+                    <div class="centerword">
+                        <h1>ninja</h1>
+                        <p class="cursive">noun</p>
+                        <p>Plural:<span class="cursive">ninjia</span></p>
+                    </div>
+                    <button class="yellowbutton">37 likes</button>
+                </div>
+                <div class="practitioner col-3">
+                    <p>A <a href=""> programmer </a>who breaks<br>down problems with <a href="">zen</a>-like<br>focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="defined col-1">
+            <div class="defined-word">
+                <p>Dojonary is <br> defined by <span class="you">You</span></p>
+                <button onclick="hide(this)" class="greenbutton">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
